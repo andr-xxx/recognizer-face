@@ -11,4 +11,4 @@ class Recognizer {
   }
 }
 
-module.exports = new Recognizer;
+module.exports = new Recognizer();
