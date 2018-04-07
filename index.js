@@ -2,12 +2,12 @@ const checkUser = require('./src/checkUser');
 const createNewUser = require('./src/createNewUser');
 
 class Recognizer {
-  checkUser(pathToImage) {
-    checkUser(pathToImage)
+  checkUser(pathToImage, modelState) {
+    return checkUser(pathToImage, modelState)
   }
 
   createNewUser(pathToFile, userName) {
-    createNewUser(pathToFile, userName)
+    return createNewUser(pathToFile, userName)
   }
 }
 
