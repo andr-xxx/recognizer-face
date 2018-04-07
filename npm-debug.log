@@ -1,0 +1,637 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/employee/.nvm/versions/node/v7.3.0/bin/node',
+1 verbose cli   '/Users/employee/.nvm/versions/node/v7.3.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'face-recognition',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v7.3.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData face-recognition
+8 silly fetchNamedPackageData face-recognition
+9 silly mapToRegistry name face-recognition
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'face-recognition',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'face-recognition',
+12 silly mapToRegistry   name: 'face-recognition',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/face-recognition
+14 verbose request uri https://registry.npmjs.org/face-recognition
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 5:55:47 PM
+17 verbose request id 2818647d32e318e7
+18 http request GET https://registry.npmjs.org/face-recognition
+19 http 200 https://registry.npmjs.org/face-recognition
+20 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+20 verbose headers   server: 'UploadServer',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'last-modified': 'Tue, 27 Mar 2018 20:09:02 GMT',
+20 verbose headers   etag: '"5abaa4de-ba34"',
+20 verbose headers   'x-npm-region': 'EU-East',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'content-length': '8480',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Sat, 07 Apr 2018 14:55:48 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-hhn1544-HHN',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1523112948.720008,VS0,VE299',
+20 verbose headers   vary: 'Accept-Encoding, Accept' }
+21 silly get cb [ 200,
+21 silly get   { 'content-type': 'application/json; charset=UTF-8',
+21 silly get     server: 'UploadServer',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'last-modified': 'Tue, 27 Mar 2018 20:09:02 GMT',
+21 silly get     etag: '"5abaa4de-ba34"',
+21 silly get     'x-npm-region': 'EU-East',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'content-length': '8480',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Sat, 07 Apr 2018 14:55:48 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-hhn1544-HHN',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1523112948.720008,VS0,VE299',
+21 silly get     vary: 'Accept-Encoding, Accept' } ]
+22 verbose get saving face-recognition to /Users/employee/.npm/registry.npmjs.org/face-recognition/.cache.json
+23 verbose correctMkdir /Users/employee/.npm correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule face-recognition@0.8.1 checking installable status
+37 silly cache add args [ 'face-recognition', null ]
+38 verbose cache add spec face-recognition
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'face-recognition',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'face-recognition',
+39 silly cache add   name: 'face-recognition',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed face-recognition@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for face-recognition
+42 info addNameTag [ 'face-recognition', 'latest' ]
+43 silly mapToRegistry name face-recognition
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'face-recognition',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'face-recognition',
+46 silly mapToRegistry   name: 'face-recognition',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/face-recognition
+48 verbose addNameTag registry:https://registry.npmjs.org/face-recognition not in flight; fetching
+49 verbose get https://registry.npmjs.org/face-recognition not expired, no request
+50 silly addNameTag next cb for face-recognition with tag latest
+51 silly addNamed face-recognition@0.8.1
+52 verbose addNamed "0.8.1" is a plain semver version for face-recognition
+53 silly mapToRegistry name face-recognition
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'face-recognition',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'face-recognition',
+56 silly mapToRegistry   name: 'face-recognition',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/face-recognition
+58 verbose addRemoteTarball https://registry.npmjs.org/face-recognition/-/face-recognition-0.8.1.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/face-recognition/-/face-recognition-0.8.1.tgz',
+59 verbose addRemoteTarball   '421a30f86b1e00983abfa923a547f03d20208b57' ]
+60 info retry fetch attempt 1 at 5:55:48 PM
+61 info attempt registry request try #1 at 5:55:48 PM
+62 http fetch GET https://registry.npmjs.org/face-recognition/-/face-recognition-0.8.1.tgz
+63 http fetch 200 https://registry.npmjs.org/face-recognition/-/face-recognition-0.8.1.tgz
+64 silly fetchAndShaCheck shasum 421a30f86b1e00983abfa923a547f03d20208b57
+65 verbose addTmpTarball /var/folders/ll/ttcrcgzx6mn_5mx1vyk1f6vm0000gq/T/npm-41173-aa29a70a/registry.npmjs.org/face-recognition/-/face-recognition-0.8.1.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for face-recognition@0.8.1
+67 verbose correctMkdir /Users/employee/.npm correctMkdir not in flight; initializing
+68 silly cache afterAdd face-recognition@0.8.1
+69 verbose afterAdd /Users/employee/.npm/face-recognition/0.8.1/package/package.json not in flight; writing
+70 verbose correctMkdir /Users/employee/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /Users/employee/.npm/face-recognition/0.8.1/package/package.json written
+72 silly fetchNamedPackageData dlib-build
+73 silly mapToRegistry name dlib-build
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'dlib-build',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'dlib-build',
+76 silly mapToRegistry   name: 'dlib-build',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/dlib-build
+78 verbose request uri https://registry.npmjs.org/dlib-build
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 5:55:48 PM
+81 http request GET https://registry.npmjs.org/dlib-build
+82 http 200 https://registry.npmjs.org/dlib-build
+83 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+83 verbose headers   server: 'UploadServer',
+83 verbose headers   'cache-control': 'max-age=300',
+83 verbose headers   'last-modified': 'Tue, 6 Mar 2018 12:27:44 GMT',
+83 verbose headers   etag: '"5a9e8940-28c4"',
+83 verbose headers   'x-npm-region': 'EU-East',
+83 verbose headers   'content-encoding': 'gzip',
+83 verbose headers   'content-length': '2462',
+83 verbose headers   'accept-ranges': 'bytes',
+83 verbose headers   date: 'Sat, 07 Apr 2018 14:55:48 GMT',
+83 verbose headers   via: '1.1 varnish',
+83 verbose headers   age: '0',
+83 verbose headers   connection: 'keep-alive',
+83 verbose headers   'x-served-by': 'cache-hhn1544-HHN',
+83 verbose headers   'x-cache': 'MISS',
+83 verbose headers   'x-cache-hits': '0',
+83 verbose headers   'x-timer': 'S1523112948.268350,VS0,VE313',
+83 verbose headers   vary: 'Accept-Encoding, Accept' }
+84 silly get cb [ 200,
+84 silly get   { 'content-type': 'application/json; charset=UTF-8',
+84 silly get     server: 'UploadServer',
+84 silly get     'cache-control': 'max-age=300',
+84 silly get     'last-modified': 'Tue, 6 Mar 2018 12:27:44 GMT',
+84 silly get     etag: '"5a9e8940-28c4"',
+84 silly get     'x-npm-region': 'EU-East',
+84 silly get     'content-encoding': 'gzip',
+84 silly get     'content-length': '2462',
+84 silly get     'accept-ranges': 'bytes',
+84 silly get     date: 'Sat, 07 Apr 2018 14:55:48 GMT',
+84 silly get     via: '1.1 varnish',
+84 silly get     age: '0',
+84 silly get     connection: 'keep-alive',
+84 silly get     'x-served-by': 'cache-hhn1544-HHN',
+84 silly get     'x-cache': 'MISS',
+84 silly get     'x-cache-hits': '0',
+84 silly get     'x-timer': 'S1523112948.268350,VS0,VE313',
+84 silly get     vary: 'Accept-Encoding, Accept' } ]
+85 verbose get saving dlib-build to /Users/employee/.npm/registry.npmjs.org/dlib-build/.cache.json
+86 verbose correctMkdir /Users/employee/.npm correctMkdir not in flight; initializing
+87 silly resolveWithNewModule dlib-build@0.1.0 checking installable status
+88 silly cache add args [ 'dlib-build@^0.1.0', null ]
+89 verbose cache add spec dlib-build@^0.1.0
+90 silly cache add parsed spec Result {
+90 silly cache add   raw: 'dlib-build@^0.1.0',
+90 silly cache add   scope: null,
+90 silly cache add   escapedName: 'dlib-build',
+90 silly cache add   name: 'dlib-build',
+90 silly cache add   rawSpec: '^0.1.0',
+90 silly cache add   spec: '>=0.1.0 <0.2.0',
+90 silly cache add   type: 'range' }
+91 silly addNamed dlib-build@>=0.1.0 <0.2.0
+92 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for dlib-build
+93 silly addNameRange { name: 'dlib-build', range: '>=0.1.0 <0.2.0', hasData: false }
+94 silly mapToRegistry name dlib-build
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry data Result {
+97 silly mapToRegistry   raw: 'dlib-build',
+97 silly mapToRegistry   scope: null,
+97 silly mapToRegistry   escapedName: 'dlib-build',
+97 silly mapToRegistry   name: 'dlib-build',
+97 silly mapToRegistry   rawSpec: '',
+97 silly mapToRegistry   spec: 'latest',
+97 silly mapToRegistry   type: 'tag' }
+98 silly mapToRegistry uri https://registry.npmjs.org/dlib-build
+99 verbose addNameRange registry:https://registry.npmjs.org/dlib-build not in flight; fetching
+100 verbose get https://registry.npmjs.org/dlib-build not expired, no request
+101 silly addNameRange number 2 { name: 'dlib-build', range: '>=0.1.0 <0.2.0', hasData: true }
+102 silly addNameRange versions [ 'dlib-build',
+102 silly addNameRange   [ '0.0.0',
+102 silly addNameRange     '0.0.1',
+102 silly addNameRange     '0.0.2',
+102 silly addNameRange     '0.0.3',
+102 silly addNameRange     '0.0.4',
+102 silly addNameRange     '0.0.5',
+102 silly addNameRange     '0.0.6',
+102 silly addNameRange     '0.1.0' ] ]
+103 silly addNamed dlib-build@0.1.0
+104 verbose addNamed "0.1.0" is a plain semver version for dlib-build
+105 silly mapToRegistry name dlib-build
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry data Result {
+108 silly mapToRegistry   raw: 'dlib-build',
+108 silly mapToRegistry   scope: null,
+108 silly mapToRegistry   escapedName: 'dlib-build',
+108 silly mapToRegistry   name: 'dlib-build',
+108 silly mapToRegistry   rawSpec: '',
+108 silly mapToRegistry   spec: 'latest',
+108 silly mapToRegistry   type: 'tag' }
+109 silly mapToRegistry uri https://registry.npmjs.org/dlib-build
+110 verbose addRemoteTarball https://registry.npmjs.org/dlib-build/-/dlib-build-0.1.0.tgz not in flight; adding
+111 verbose addRemoteTarball [ 'https://registry.npmjs.org/dlib-build/-/dlib-build-0.1.0.tgz',
+111 verbose addRemoteTarball   '4d2a6c7af41d50af4d25e68e122eb32333ab2444' ]
+112 info retry fetch attempt 1 at 5:55:48 PM
+113 info attempt registry request try #1 at 5:55:48 PM
+114 http fetch GET https://registry.npmjs.org/dlib-build/-/dlib-build-0.1.0.tgz
+115 http fetch 200 https://registry.npmjs.org/dlib-build/-/dlib-build-0.1.0.tgz
+116 silly fetchAndShaCheck shasum 4d2a6c7af41d50af4d25e68e122eb32333ab2444
+117 verbose addTmpTarball /var/folders/ll/ttcrcgzx6mn_5mx1vyk1f6vm0000gq/T/npm-41173-aa29a70a/registry.npmjs.org/dlib-build/-/dlib-build-0.1.0.tgz not in flight; adding
+118 verbose addTmpTarball already have metadata; skipping unpack for dlib-build@0.1.0
+119 verbose correctMkdir /Users/employee/.npm correctMkdir not in flight; initializing
+120 silly cache afterAdd dlib-build@0.1.0
+121 verbose afterAdd /Users/employee/.npm/dlib-build/0.1.0/package/package.json not in flight; writing
+122 verbose correctMkdir /Users/employee/.npm correctMkdir not in flight; initializing
+123 verbose afterAdd /Users/employee/.npm/dlib-build/0.1.0/package/package.json written
+124 silly loadAllDepsIntoIdealTree Finishing
+125 silly loadIdealTree Finishing
+126 silly currentTree theif_of_faces@1.0.0
+126 silly currentTree ├── accepts@1.3.5
+126 silly currentTree ├── array-flatten@1.1.1
+126 silly currentTree ├── body-parser@1.18.2
+126 silly currentTree ├── bytes@3.0.0
+126 silly currentTree ├── content-disposition@0.5.2
+126 silly currentTree ├── content-type@1.0.4
+126 silly currentTree ├── cookie-signature@1.0.6
+126 silly currentTree ├── cookie@0.3.1
+126 silly currentTree ├── debug@2.6.9
+126 silly currentTree ├── depd@1.1.2
+126 silly currentTree ├── destroy@1.0.4
+126 silly currentTree ├── ee-first@1.1.1
+126 silly currentTree ├── encodeurl@1.0.2
+126 silly currentTree ├── escape-html@1.0.3
+126 silly currentTree ├── etag@1.8.1
+126 silly currentTree ├── express@4.16.3
+126 silly currentTree ├── face-recognition-models@0.0.0
+126 silly currentTree ├── finalhandler@1.1.1
+126 silly currentTree ├── forwarded@0.1.2
+126 silly currentTree ├── fresh@0.5.2
+126 silly currentTree ├── http-errors@1.6.3
+126 silly currentTree ├── iconv-lite@0.4.19
+126 silly currentTree ├── inherits@2.0.3
+126 silly currentTree ├── ipaddr.js@1.6.0
+126 silly currentTree ├── media-typer@0.3.0
+126 silly currentTree ├── merge-descriptors@1.0.1
+126 silly currentTree ├── methods@1.1.2
+126 silly currentTree ├── mime-db@1.33.0
+126 silly currentTree ├── mime-types@2.1.18
+126 silly currentTree ├── mime@1.4.1
+126 silly currentTree ├── ms@2.0.0
+126 silly currentTree ├── nan@2.10.0
+126 silly currentTree ├── native-node-utils@0.0.4
+126 silly currentTree ├── negotiator@0.6.1
+126 silly currentTree ├── on-finished@2.3.0
+126 silly currentTree ├── parseurl@1.3.2
+126 silly currentTree ├── path-to-regexp@0.1.7
+126 silly currentTree ├── proxy-addr@2.0.3
+126 silly currentTree ├── qs@6.5.1
+126 silly currentTree ├── range-parser@1.2.0
+126 silly currentTree ├─┬ raw-body@2.3.2
+126 silly currentTree │ ├── depd@1.1.1
+126 silly currentTree │ ├── http-errors@1.6.2
+126 silly currentTree │ └── setprototypeof@1.0.3
+126 silly currentTree ├── safe-buffer@5.1.1
+126 silly currentTree ├── send@0.16.2
+126 silly currentTree ├── serve-static@1.13.2
+126 silly currentTree ├── setprototypeof@1.1.0
+126 silly currentTree ├── statuses@1.4.0
+126 silly currentTree ├── type-is@1.6.16
+126 silly currentTree ├── unpipe@1.0.0
+126 silly currentTree ├── utils-merge@1.0.1
+126 silly currentTree └── vary@1.1.2
+127 silly idealTree theif_of_faces@1.0.0
+127 silly idealTree ├── accepts@1.3.5
+127 silly idealTree ├── array-flatten@1.1.1
+127 silly idealTree ├── body-parser@1.18.2
+127 silly idealTree ├── bytes@3.0.0
+127 silly idealTree ├── content-disposition@0.5.2
+127 silly idealTree ├── content-type@1.0.4
+127 silly idealTree ├── cookie-signature@1.0.6
+127 silly idealTree ├── cookie@0.3.1
+127 silly idealTree ├── debug@2.6.9
+127 silly idealTree ├── depd@1.1.2
+127 silly idealTree ├── destroy@1.0.4
+127 silly idealTree ├── dlib-build@0.1.0
+127 silly idealTree ├── ee-first@1.1.1
+127 silly idealTree ├── encodeurl@1.0.2
+127 silly idealTree ├── escape-html@1.0.3
+127 silly idealTree ├── etag@1.8.1
+127 silly idealTree ├── express@4.16.3
+127 silly idealTree ├── face-recognition-models@0.0.0
+127 silly idealTree ├── face-recognition@0.8.1
+127 silly idealTree ├── finalhandler@1.1.1
+127 silly idealTree ├── forwarded@0.1.2
+127 silly idealTree ├── fresh@0.5.2
+127 silly idealTree ├── http-errors@1.6.3
+127 silly idealTree ├── iconv-lite@0.4.19
+127 silly idealTree ├── inherits@2.0.3
+127 silly idealTree ├── ipaddr.js@1.6.0
+127 silly idealTree ├── media-typer@0.3.0
+127 silly idealTree ├── merge-descriptors@1.0.1
+127 silly idealTree ├── methods@1.1.2
+127 silly idealTree ├── mime-db@1.33.0
+127 silly idealTree ├── mime-types@2.1.18
+127 silly idealTree ├── mime@1.4.1
+127 silly idealTree ├── ms@2.0.0
+127 silly idealTree ├── nan@2.10.0
+127 silly idealTree ├── native-node-utils@0.0.4
+127 silly idealTree ├── negotiator@0.6.1
+127 silly idealTree ├── on-finished@2.3.0
+127 silly idealTree ├── parseurl@1.3.2
+127 silly idealTree ├── path-to-regexp@0.1.7
+127 silly idealTree ├── proxy-addr@2.0.3
+127 silly idealTree ├── qs@6.5.1
+127 silly idealTree ├── range-parser@1.2.0
+127 silly idealTree ├─┬ raw-body@2.3.2
+127 silly idealTree │ ├── depd@1.1.1
+127 silly idealTree │ ├── http-errors@1.6.2
+127 silly idealTree │ └── setprototypeof@1.0.3
+127 silly idealTree ├── safe-buffer@5.1.1
+127 silly idealTree ├── send@0.16.2
+127 silly idealTree ├── serve-static@1.13.2
+127 silly idealTree ├── setprototypeof@1.1.0
+127 silly idealTree ├── statuses@1.4.0
+127 silly idealTree ├── type-is@1.6.16
+127 silly idealTree ├── unpipe@1.0.0
+127 silly idealTree ├── utils-merge@1.0.1
+127 silly idealTree └── vary@1.1.2
+128 silly generateActionsToTake Starting
+129 silly install generateActionsToTake
+130 silly generateActionsToTake Finishing
+131 silly diffTrees action count 2
+132 silly diffTrees add dlib-build@0.1.0
+133 silly diffTrees add face-recognition@0.8.1
+134 silly decomposeActions action count 16
+135 silly decomposeActions fetch dlib-build@0.1.0
+136 silly decomposeActions extract dlib-build@0.1.0
+137 silly decomposeActions test dlib-build@0.1.0
+138 silly decomposeActions preinstall dlib-build@0.1.0
+139 silly decomposeActions build dlib-build@0.1.0
+140 silly decomposeActions install dlib-build@0.1.0
+141 silly decomposeActions postinstall dlib-build@0.1.0
+142 silly decomposeActions finalize dlib-build@0.1.0
+143 silly decomposeActions fetch face-recognition@0.8.1
+144 silly decomposeActions extract face-recognition@0.8.1
+145 silly decomposeActions test face-recognition@0.8.1
+146 silly decomposeActions preinstall face-recognition@0.8.1
+147 silly decomposeActions build face-recognition@0.8.1
+148 silly decomposeActions install face-recognition@0.8.1
+149 silly decomposeActions postinstall face-recognition@0.8.1
+150 silly decomposeActions finalize face-recognition@0.8.1
+151 silly runTopLevelLifecycles Starting
+152 silly executeActions Starting
+153 silly install executeActions
+154 silly doSerial global-install 0
+155 silly doParallel fetch 2
+156 verbose correctMkdir /Users/employee/.npm/_locks correctMkdir not in flight; initializing
+157 verbose lock using /Users/employee/.npm/_locks/staging-7160ee5f34c2c77f.lock for /Users/employee/Documents/project/theif of faces/node_modules/.staging
+158 silly doParallel extract 2
+159 silly extract dlib-build@0.1.0
+160 silly extract face-recognition@0.8.1
+161 verbose unbuild node_modules/.staging/dlib-build-2782db31
+162 verbose unbuild node_modules/.staging/face-recognition-4a884e3c
+163 silly gentlyRm /Users/employee/Documents/project/theif of faces/node_modules/.staging/dlib-build-2782db31 is being purged from base /Users/employee/Documents/project/theif of faces
+164 verbose gentlyRm don't care about contents; nuking /Users/employee/Documents/project/theif of faces/node_modules/.staging/dlib-build-2782db31
+165 silly gentlyRm /Users/employee/Documents/project/theif of faces/node_modules/.staging/face-recognition-4a884e3c is being purged from base /Users/employee/Documents/project/theif of faces
+166 verbose gentlyRm don't care about contents; nuking /Users/employee/Documents/project/theif of faces/node_modules/.staging/face-recognition-4a884e3c
+167 verbose tar unpack /Users/employee/.npm/dlib-build/0.1.0/package.tgz
+168 verbose tar unpacking to /Users/employee/Documents/project/theif of faces/node_modules/.staging/dlib-build-2782db31
+169 silly gentlyRm /Users/employee/Documents/project/theif of faces/node_modules/.staging/dlib-build-2782db31 is being purged
+170 verbose gentlyRm don't care about contents; nuking /Users/employee/Documents/project/theif of faces/node_modules/.staging/dlib-build-2782db31
+171 verbose tar unpack /Users/employee/.npm/face-recognition/0.8.1/package.tgz
+172 verbose tar unpacking to /Users/employee/Documents/project/theif of faces/node_modules/.staging/face-recognition-4a884e3c
+173 silly gentlyRm /Users/employee/Documents/project/theif of faces/node_modules/.staging/face-recognition-4a884e3c is being purged
+174 verbose gentlyRm don't care about contents; nuking /Users/employee/Documents/project/theif of faces/node_modules/.staging/face-recognition-4a884e3c
+175 silly gunzTarPerm modes [ '755', '644' ]
+176 silly gunzTarPerm modes [ '755', '644' ]
+177 silly gunzTarPerm extractEntry package.json
+178 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+179 silly gunzTarPerm extractEntry package.json
+180 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+181 silly gunzTarPerm extractEntry .travis.yml
+182 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+183 silly gunzTarPerm extractEntry appveyor.yml
+184 silly gunzTarPerm modified mode [ 'appveyor.yml', 438, 420 ]
+185 silly gunzTarPerm extractEntry .gitattributes
+186 silly gunzTarPerm modified mode [ '.gitattributes', 438, 420 ]
+187 silly gunzTarPerm extractEntry appveyor.yml
+188 silly gunzTarPerm modified mode [ 'appveyor.yml', 438, 420 ]
+189 silly gunzTarPerm extractEntry constants.js
+190 silly gunzTarPerm modified mode [ 'constants.js', 438, 420 ]
+191 silly gunzTarPerm extractEntry index.js
+192 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+193 silly gunzTarPerm extractEntry binding.gyp
+194 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+195 silly gunzTarPerm extractEntry LICENSE
+196 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+197 silly gunzTarPerm extractEntry install.js
+198 silly gunzTarPerm modified mode [ 'install.js', 438, 420 ]
+199 silly gunzTarPerm extractEntry README.md
+200 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+201 silly gunzTarPerm extractEntry README.md
+202 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+203 silly gunzTarPerm extractEntry cc/Array.cc
+204 silly gunzTarPerm modified mode [ 'cc/Array.cc', 438, 420 ]
+205 silly gunzTarPerm extractEntry cc/Array.h
+206 silly gunzTarPerm modified mode [ 'cc/Array.h', 438, 420 ]
+207 silly gunzTarPerm extractEntry cc/ChipDetails.cc
+208 silly gunzTarPerm modified mode [ 'cc/ChipDetails.cc', 438, 420 ]
+209 silly gunzTarPerm extractEntry cc/ChipDetails.h
+210 silly gunzTarPerm modified mode [ 'cc/ChipDetails.h', 438, 420 ]
+211 silly gunzTarPerm extractEntry cc/CvImage.cc
+212 silly gunzTarPerm modified mode [ 'cc/CvImage.cc', 438, 420 ]
+213 silly gunzTarPerm extractEntry cc/CvImage.h
+214 silly gunzTarPerm modified mode [ 'cc/CvImage.h', 438, 420 ]
+215 silly gunzTarPerm extractEntry cc/FaceDetectorNet.cc
+216 silly gunzTarPerm modified mode [ 'cc/FaceDetectorNet.cc', 438, 420 ]
+217 silly gunzTarPerm extractEntry cc/FaceDetectorNet.h
+218 silly gunzTarPerm modified mode [ 'cc/FaceDetectorNet.h', 438, 420 ]
+219 silly gunzTarPerm extractEntry cc/FaceRecognizerNet.cc
+220 silly gunzTarPerm modified mode [ 'cc/FaceRecognizerNet.cc', 438, 420 ]
+221 silly gunzTarPerm extractEntry cc/FaceRecognizerNet.h
+222 silly gunzTarPerm modified mode [ 'cc/FaceRecognizerNet.h', 438, 420 ]
+223 silly gunzTarPerm extractEntry cc/FrontalFaceDetector.cc
+224 silly gunzTarPerm modified mode [ 'cc/FrontalFaceDetector.cc', 438, 420 ]
+225 silly gunzTarPerm extractEntry cc/FrontalFaceDetector.h
+226 silly gunzTarPerm modified mode [ 'cc/FrontalFaceDetector.h', 438, 420 ]
+227 silly gunzTarPerm extractEntry cc/FullObjectDetection.cc
+228 silly gunzTarPerm modified mode [ 'cc/FullObjectDetection.cc', 438, 420 ]
+229 silly gunzTarPerm extractEntry cc/FullObjectDetection.h
+230 silly gunzTarPerm modified mode [ 'cc/FullObjectDetection.h', 438, 420 ]
+231 silly gunzTarPerm extractEntry cc/GenericImage.h
+232 silly gunzTarPerm modified mode [ 'cc/GenericImage.h', 438, 420 ]
+233 silly gunzTarPerm extractEntry cc/GenericImageBase.h
+234 silly gunzTarPerm modified mode [ 'cc/GenericImageBase.h', 438, 420 ]
+235 silly gunzTarPerm extractEntry cc/ImageGray.cc
+236 silly gunzTarPerm modified mode [ 'cc/ImageGray.cc', 438, 420 ]
+237 silly gunzTarPerm extractEntry cc/ImageGray.h
+238 silly gunzTarPerm modified mode [ 'cc/ImageGray.h', 438, 420 ]
+239 silly gunzTarPerm extractEntry cc/ImageRGB.cc
+240 silly gunzTarPerm modified mode [ 'cc/ImageRGB.cc', 438, 420 ]
+241 silly gunzTarPerm extractEntry cc/ImageRGB.h
+242 silly gunzTarPerm modified mode [ 'cc/ImageRGB.h', 438, 420 ]
+243 silly gunzTarPerm extractEntry cc/ImageWindow.cc
+244 silly gunzTarPerm modified mode [ 'cc/ImageWindow.cc', 438, 420 ]
+245 silly gunzTarPerm extractEntry cc/ImageWindow.h
+246 silly gunzTarPerm modified mode [ 'cc/ImageWindow.h', 438, 420 ]
+247 silly gunzTarPerm extractEntry cc/index.cc
+248 silly gunzTarPerm modified mode [ 'cc/index.cc', 438, 420 ]
+249 silly gunzTarPerm extractEntry cc/MmodRect.cc
+250 silly gunzTarPerm modified mode [ 'cc/MmodRect.cc', 438, 420 ]
+251 silly gunzTarPerm extractEntry cc/MmodRect.h
+252 silly gunzTarPerm modified mode [ 'cc/MmodRect.h', 438, 420 ]
+253 silly gunzTarPerm extractEntry cc/Point.cc
+254 silly gunzTarPerm modified mode [ 'cc/Point.cc', 438, 420 ]
+255 silly gunzTarPerm extractEntry cc/Point.h
+256 silly gunzTarPerm modified mode [ 'cc/Point.h', 438, 420 ]
+257 silly gunzTarPerm extractEntry cc/Rect.cc
+258 silly gunzTarPerm modified mode [ 'cc/Rect.cc', 438, 420 ]
+259 silly gunzTarPerm extractEntry cc/Rect.h
+260 silly gunzTarPerm modified mode [ 'cc/Rect.h', 438, 420 ]
+261 silly gunzTarPerm extractEntry cc/ShapePredictor.cc
+262 silly gunzTarPerm modified mode [ 'cc/ShapePredictor.cc', 438, 420 ]
+263 silly gunzTarPerm extractEntry cc/ShapePredictor.h
+264 silly gunzTarPerm modified mode [ 'cc/ShapePredictor.h', 438, 420 ]
+265 silly gunzTarPerm extractEntry cc/utils.cc
+266 silly gunzTarPerm modified mode [ 'cc/utils.cc', 438, 420 ]
+267 silly gunzTarPerm extractEntry cc/utils.h
+268 silly gunzTarPerm modified mode [ 'cc/utils.h', 438, 420 ]
+269 silly gunzTarPerm extractEntry lib/includes.js
+270 silly gunzTarPerm modified mode [ 'lib/includes.js', 438, 420 ]
+271 silly gunzTarPerm extractEntry lib/index.d.ts
+272 silly gunzTarPerm modified mode [ 'lib/index.d.ts', 438, 420 ]
+273 silly gunzTarPerm extractEntry lib/index.js
+274 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+275 silly gunzTarPerm extractEntry lib/libs.js
+276 silly gunzTarPerm modified mode [ 'lib/libs.js', 438, 420 ]
+277 silly gunzTarPerm extractEntry lib/promisify.js
+278 silly gunzTarPerm modified mode [ 'lib/promisify.js', 438, 420 ]
+279 silly gunzTarPerm extractEntry lib/src/FaceDetector/AsyncFaceDetector.js
+280 silly gunzTarPerm modified mode [ 'lib/src/FaceDetector/AsyncFaceDetector.js', 438, 420 ]
+281 silly gunzTarPerm extractEntry lib/src/FaceDetector/FaceDetector.js
+282 silly gunzTarPerm modified mode [ 'lib/src/FaceDetector/FaceDetector.js', 438, 420 ]
+283 silly gunzTarPerm extractEntry lib/src/FaceDetector/index.js
+284 silly gunzTarPerm modified mode [ 'lib/src/FaceDetector/index.js', 438, 420 ]
+285 silly gunzTarPerm extractEntry lib/src/FaceLandmarkPredictor.js
+286 silly gunzTarPerm modified mode [ 'lib/src/FaceLandmarkPredictor.js', 438, 420 ]
+287 silly gunzTarPerm extractEntry lib/src/FaceRecognizer/AsyncFaceRecognizer.js
+288 silly gunzTarPerm modified mode [ 'lib/src/FaceRecognizer/AsyncFaceRecognizer.js', 438, 420 ]
+289 silly gunzTarPerm extractEntry lib/src/FaceRecognizer/commons.js
+290 silly gunzTarPerm modified mode [ 'lib/src/FaceRecognizer/commons.js', 438, 420 ]
+291 silly gunzTarPerm extractEntry lib/src/FaceRecognizer/FaceRecognizer.js
+292 silly gunzTarPerm modified mode [ 'lib/src/FaceRecognizer/FaceRecognizer.js', 438, 420 ]
+293 silly gunzTarPerm extractEntry lib/src/FaceRecognizer/index.js
+294 silly gunzTarPerm modified mode [ 'lib/src/FaceRecognizer/index.js', 438, 420 ]
+295 silly gunzTarPerm extractEntry lib/src/withCv.js
+296 silly gunzTarPerm modified mode [ 'lib/src/withCv.js', 438, 420 ]
+297 silly gunzTarPerm extractEntry lib/utils.js
+298 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+299 silly gunzTarPerm extractEntry lib/find-msbuild.js
+300 silly gunzTarPerm modified mode [ 'lib/find-msbuild.js', 438, 420 ]
+301 silly gunzTarPerm extractEntry lib/Find-VS2017.cs
+302 silly gunzTarPerm modified mode [ 'lib/Find-VS2017.cs', 438, 420 ]
+303 silly gunzTarPerm extractEntry lib/setup-dlib.js
+304 silly gunzTarPerm modified mode [ 'lib/setup-dlib.js', 438, 420 ]
+305 silly gunzTarPerm extractEntry lib/utils.js
+306 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+307 silly gunzTarPerm extractEntry test/check-build.js
+308 silly gunzTarPerm modified mode [ 'test/check-build.js', 438, 420 ]
+309 silly gentlyRm /Users/employee/Documents/project/theif of faces/node_modules/.staging/dlib-build-2782db31/node_modules is being purged
+310 verbose gentlyRm don't care about contents; nuking /Users/employee/Documents/project/theif of faces/node_modules/.staging/dlib-build-2782db31/node_modules
+311 silly gentlyRm /Users/employee/Documents/project/theif of faces/node_modules/.staging/face-recognition-4a884e3c/node_modules is being purged
+312 verbose gentlyRm don't care about contents; nuking /Users/employee/Documents/project/theif of faces/node_modules/.staging/face-recognition-4a884e3c/node_modules
+313 silly doParallel preinstall 2
+314 silly preinstall dlib-build@0.1.0 /Users/employee/Documents/project/theif of faces/node_modules/.staging/dlib-build-2782db31
+315 info lifecycle dlib-build@0.1.0~preinstall: dlib-build@0.1.0
+316 silly preinstall face-recognition@0.8.1 /Users/employee/Documents/project/theif of faces/node_modules/.staging/face-recognition-4a884e3c
+317 info lifecycle face-recognition@0.8.1~preinstall: face-recognition@0.8.1
+318 silly lifecycle dlib-build@0.1.0~preinstall: no script for preinstall, continuing
+319 silly lifecycle face-recognition@0.8.1~preinstall: no script for preinstall, continuing
+320 silly doReverseSerial remove 0
+321 silly doSerial move 0
+322 silly doSerial finalize 2
+323 silly finalize /Users/employee/Documents/project/theif of faces/node_modules/dlib-build
+324 silly finalize /Users/employee/Documents/project/theif of faces/node_modules/face-recognition
+325 silly doSerial build 2
+326 silly build dlib-build@0.1.0
+327 info linkStuff dlib-build@0.1.0
+328 silly linkStuff dlib-build@0.1.0 has /Users/employee/Documents/project/theif of faces/node_modules as its parent node_modules
+329 verbose linkBins dlib-build@0.1.0
+330 verbose linkMans dlib-build@0.1.0
+331 silly build face-recognition@0.8.1
+332 info linkStuff face-recognition@0.8.1
+333 silly linkStuff face-recognition@0.8.1 has /Users/employee/Documents/project/theif of faces/node_modules as its parent node_modules
+334 verbose linkBins face-recognition@0.8.1
+335 verbose linkMans face-recognition@0.8.1
+336 silly doSerial global-link 0
+337 silly doParallel update-linked 0
+338 silly doSerial install 2
+339 silly install dlib-build@0.1.0 /Users/employee/Documents/project/theif of faces/node_modules/.staging/dlib-build-2782db31
+340 info lifecycle dlib-build@0.1.0~install: dlib-build@0.1.0
+341 verbose lifecycle dlib-build@0.1.0~install: unsafe-perm in lifecycle true
+342 verbose lifecycle dlib-build@0.1.0~install: PATH: /Users/employee/.nvm/versions/node/v7.3.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/employee/Documents/project/theif of faces/node_modules/dlib-build/node_modules/.bin:/Users/employee/Documents/project/theif of faces/node_modules/.bin:/Users/employee/.nvm/versions/node/v7.3.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/employee/Library/Android/sdk/platform-tools/:/Users/employee/Library/Android/sdk/emulator:/Users/employee/Library/Android/sdk/tools:/Users/employee/Library/Android/sdk/platform-tools:/Users/employee/Library/Android/sdk/tools/bin
+343 verbose lifecycle dlib-build@0.1.0~install: CWD: /Users/employee/Documents/project/theif of faces/node_modules/dlib-build
+344 silly lifecycle dlib-build@0.1.0~install: Args: [ '-c', 'node ./install.js' ]
+345 silly lifecycle dlib-build@0.1.0~install: Returned: code: 1  signal: null
+346 info lifecycle dlib-build@0.1.0~install: Failed to exec install script
+347 verbose unlock done using /Users/employee/.npm/_locks/staging-7160ee5f34c2c77f.lock for /Users/employee/Documents/project/theif of faces/node_modules/.staging
+348 silly rollbackFailedOptional Starting
+349 silly rollbackFailedOptional Finishing
+350 silly runTopLevelLifecycles Finishing
+351 silly install printInstalled
+352 warn theif_of_faces@1.0.0 No description
+353 verbose If you need help, you may report this error at:
+353 verbose     <https://github.com/npm/npm/issues>
+354 warn theif_of_faces@1.0.0 No repository field.
+355 verbose If you need help, you may report this error at:
+355 verbose     <https://github.com/npm/npm/issues>
+356 verbose stack Error: dlib-build@0.1.0 install: `node ./install.js`
+356 verbose stack Exit status 1
+356 verbose stack     at EventEmitter.<anonymous> (/Users/employee/.nvm/versions/node/v7.3.0/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+356 verbose stack     at emitTwo (events.js:106:13)
+356 verbose stack     at EventEmitter.emit (events.js:191:7)
+356 verbose stack     at ChildProcess.<anonymous> (/Users/employee/.nvm/versions/node/v7.3.0/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+356 verbose stack     at emitTwo (events.js:106:13)
+356 verbose stack     at ChildProcess.emit (events.js:191:7)
+356 verbose stack     at maybeClose (internal/child_process.js:885:16)
+356 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+357 verbose pkgid dlib-build@0.1.0
+358 verbose cwd /Users/employee/Documents/project/theif of faces
+359 error Darwin 16.7.0
+360 error argv "/Users/employee/.nvm/versions/node/v7.3.0/bin/node" "/Users/employee/.nvm/versions/node/v7.3.0/bin/npm" "install" "face-recognition" "--save"
+361 error node v7.3.0
+362 error npm  v3.10.10
+363 error code ELIFECYCLE
+364 error dlib-build@0.1.0 install: `node ./install.js`
+364 error Exit status 1
+365 error Failed at the dlib-build@0.1.0 install script 'node ./install.js'.
+365 error Make sure you have the latest version of node.js and npm installed.
+365 error If you do, this is most likely a problem with the dlib-build package,
+365 error not with npm itself.
+365 error Tell the author that this fails on your system:
+365 error     node ./install.js
+365 error You can get information on how to open an issue for this project with:
+365 error     npm bugs dlib-build
+365 error Or if that isn't available, you can get their info via:
+365 error     npm owner ls dlib-build
+365 error There is likely additional logging output above.
+366 verbose exit [ 1, true ]
